@@ -35,7 +35,7 @@ const gguuInfo = {
   gender: "Male",
   isHandsome: true,
   movie: ["Along the gods", "LOTR", "old boy"],
-  favFood: [{ name: "Kimchi", fatty: false }, { name: "cheese", fatty: true }]
+  favFood: [{ name: "Kimchi", fatty: false }, { name: "cheese", fatty: true }],
 };
 
 // console.log(gguuInfo.age);
@@ -43,3 +43,13 @@ const gguuInfo = {
 // console.log(gguuInfo.movie);
 
 console.log(gguuInfo.favFood);
+
+console.log(console, gguuInfo.isHandsome);
+
+function sayHello(data, age) {
+  return `Hello ${data} your age ${age} years old`;
+}
+
+const greetNicolas = sayHello("Nicolas", 14);
+
+console.log(greetNicolas);
